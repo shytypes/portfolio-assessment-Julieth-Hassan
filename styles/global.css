@@ -1,7 +1,60 @@
 /* remove default browser spacing*/
-* {
-  margin: 0px;
-  padding: 0px;
+* body {
+  font-family: Arial, sans-serif;
+  background-color: #1e1e1e;
+  color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  background-color: #2c2c2c;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 700px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+header h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.contact p {
+  margin: 5px 0;
+}
+
+a {
+  color: #4fc3f7;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin-top: 20px;
+}
+
+h2 {
+  color: #fbc02d;
+  margin-bottom: 10px;
+}
+
+.extras {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.Technical skills, .Soft skills {
+  width: 48%;
+}
+
+ul {
+  padding-left: 20px;
 }
 
 /*title text style*/
